@@ -1,0 +1,13 @@
+@mixin boton(){
+	background-color:$color-botones;
+	color: white;
+	padding: 11px 25px;
+	border: $bordes-no;
+	border-radius: $radius-botones;
+}
+@mixin titulos(){
+	color: $color-botones;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 75px 0 0;
+}
